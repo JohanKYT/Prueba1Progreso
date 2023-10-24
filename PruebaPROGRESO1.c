@@ -12,10 +12,11 @@ int main(){
     {
         numingresa=-numingresa;
     }
-    printf("El numero binario es");
+    printf("El numero binario es: ");
     int cont1=numingresa/2;
-    while (cont1!=0)
+    while (numingresa>0)
     {
+    
         cont2=numingresa%2;
         numingresa/=2;
 
@@ -29,8 +30,6 @@ int main(){
             numbinario=0;
             printf("%d",numbinario);
         }
-        
-        cont1--;
     }
     
 
